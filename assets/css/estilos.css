@@ -1,0 +1,93 @@
+
+.{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: terrorxd;
+    src: url(/assets/fonts/The\ Macabre.otf);
+}
+h1{
+    font-family: terrorxd;
+    text-align: left;
+}
+
+@font-face {
+    font-family: parrafo;
+    src: url(/assets/fonts/Roboto-Light.ttf);
+}
+
+p{
+    font-family: parrafo;
+}
+body {
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff6666;
+    text-decoration: none;
+}
+
+.seccion {
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#seccion1 {
+    background-color: #ccc;
+    border-left: 5px solid #ff6666;
+}
+
+.card-deck .card {
+    background-color: #ccc;
+    border: none;
+}
+
+.card-body {
+    background-color: #ccc;
+    color: #eee;
+}
+
+.card-title {
+    color: #ff6666;
+}
+
+.card-text {
+    color: #ccc;
+}
+.charro{
+    float: left;
+}
+.tarot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mara{
+    float: right;
+}
+.cruz{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.niña{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
